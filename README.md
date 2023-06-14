@@ -60,7 +60,7 @@
 5.  启动服务：
 
     ```bash
-    `docker-compose up`
+    docker-compose up
     ```
 
 
