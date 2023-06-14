@@ -47,15 +47,21 @@
 
 3.  构建Docker镜像：
 
-    `docker build .`
-
+    ```bash
+    docker build .
+    ```
+    
 4.  使用Docker Compose构建服务：
-
-    `docker-compose build`
+    
+    ```bash
+    docker-compose build
+    ```
 
 5.  启动服务：
 
+    ```bash
     `docker-compose up`
+    ```
 
 
 ### 格式检查
@@ -71,6 +77,18 @@ docker-compose run --rm app sh -c "flake8"
 
 ```bash
 docker-compose run --rm app sh -c "python manage.py test"
+```
+
+### TIPs
+项目需要docker composer 2+版本，在Ubuntu下可以使用如下安装：
+```bash
+mkdir -p ~/.docker/cli-plugins
+curl -SL https://github.com/docker/compose/releases/download/v2.2.3/docker-compose-linux-x86_64 -o ~/.docker/cli-plugins/docker-compose
+chmod +x ~/.docker/cli-plugins/docker-compose
+```
+这里使用`docker compose`代替之前的`docker-compose`，如查看版本命令如下：
+```bash
+docker compose version
 ```
 
 ## 贡献
