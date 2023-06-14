@@ -19,17 +19,17 @@
 2.  在`.github/workflows`目录下修改`checks.yml`文件，并配置你的GitHub Action。
 
 #### 使用项目配置
-![在Dockerhub中添加token](fig/fig3.png "可选标题")
+![在Dockerhub中添加token](figs/fig3.png)
 
-![选择New Access Token](fig/fig4.png "可选标题")
+![选择New Access Token](figs/fig4.png)
 
-![在Github中新建Github Actions](fig/fig1.png "可选标题")
+![在Github中新建Github Actions](figs/fig1.png)
 
-![添加DOCKERHUB_USER和DOCKERHUB_TOKEN](fig/fig2.png "可选标题")
+![添加DOCKERHUB_USER和DOCKERHUB_TOKEN](figs/fig2.png)
 
-![把其中的用户名和token都复制并粘贴到GithubActions中1](fig/fig5.png "可选标题")
+![把其中的用户名和token都复制并粘贴到GithubActions中1](figs/fig5.png)
 
-![把其中的用户名和token都复制并粘贴到GithubActions中1](fig/fig6.png "可选标题")
+![把其中的用户名和token都复制并粘贴到GithubActions中2](figs/fig6.png)
 
 ### 构建与启动
 
